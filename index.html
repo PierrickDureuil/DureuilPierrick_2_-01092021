@@ -3,42 +3,57 @@
         <head>
             <meta charset="utf-8" />
             <link rel="stylesheet" href="style.css" />
+           <script src="https://kit.fontawesome.com/3d32b69105.js" crossorigin="anonymous"></script>
             <title>Reservia</title>
         </head>
 
         <body>
 
             <header>
-                <div>
-                    <h1>Reservia</h1>
+                <div class="title">
+                    <h1 class="reservia"> <img src="images/logo/Reservia@3x.png" alt="reservia" class="reservia"> </h1>
 
                     <nav>
-                        <ul>
-                            <li> <a href="#hebergements">Hébergements</a> </li>
-                            <li> <a href="#activites">Activités</a> </li>
-                            <li> <a href="inscription.html">S'inscrire</a> </li>
+                        <ul class="anchor">
+                            <li class="list"> <a href="#hebergements" id="anchor_lodging">Hébergements</a> </li>
+                            <li class="list"> <a href="#activites" id="anchor_activity">Activités</a> </li>
+                            <li class="list"> <a href="inscription.html" id="register">S'inscrire</a> </li>
                         </ul>   
                     </nav>
                 </div>
 
                 <div>
-                    <p> <h1>Trouver votre hèbergement pour des vacances de rêve</h1> En plein centre ville ou en pleine nature </p>
+                    <h1 class="intro">Trouver votre hèbergement pour des vacances de rêve</h1><p class="info_introduction">En plein centre ville ou en pleine nature </p>
 
                     <form method="post" action="###.php"> 
-                        <label for="lieu"><img src="images/icon/position.svg" alt="icon"/></label>
-                        <input type="text" placeholder="Marseille, France" name="lieu" id="lieu" />
-                        <input type="submit" value="Rechercher"/>
+                        <label for="lieu"> <i class="fas fa-map-marker-alt" id="position"></i></label>
+                        <input type="text" value="  Marseille, France" name="lieu" id="lieu" />
+                        <input type="submit" value="Rechercher" id="submit"/>
                     </form>   
                 </div>
 
-                <div>
-                    <p>Filtres</p>
-                    <ul>
-                        <li> <img src="images/icon/note.svg" alt="icon billet"/>Économique </li>
-                        <li> <img src="images/icon/user.svg" alt="icon enfant"/>Familial </li>
-                        <li> <img src="images/icon/heart.svg" alt="icon coeur"/>Romantique </li>
-                        <li> <img src="images/icon/dog.svg" alt="icon chien"/>animaux autorisès </li>
-                    </ul>
+                <div id="filters">
+                    <p id="filter_text">Filtres</p>
+
+                    <div class="tag">
+                        <figure class="filters_icon"> <i class="fas fa-money-bill-wave"></i> </figure>
+                        <p class="tag_name">Économique</p>
+                    </div>
+
+                    <div class="tag">
+                        <figure class="filters_icon"><i class="fas fa-child" ></i></figure>
+                        <p class="tag_name">Familial</p>
+                    </div>
+
+                    <div class="tag">
+                        <figure class="filters_icon"> <i class="fas fa-heart"></i> </figure>
+                        <p class="tag_name">Romantique</p>
+                    </div>
+
+                    <div class="tag">
+                        <figure class="filters_icon"> <i class="fas fa-dog"></i> </figure>
+                        <p class="tag_name">animaux autorisès</p>
+                    </div>
                 </div>
                 
            
@@ -228,7 +243,7 @@
                    <a href="###.html">Données et confidentialité</a>
                 </div>
                 
-                <div class="">
+                <div>
                     <h1>Nos hèbergements</h1>
                     <a href="###.html">Charte qualité</a>
                     <a href="###.html">Soumettre votre hôtel</a>
