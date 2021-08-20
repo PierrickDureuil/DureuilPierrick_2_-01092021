@@ -12,13 +12,21 @@ html
 *
 {      
     font-family: 'raleway', Arial, serif;
-    font-size: 100%;
+    font-size: 1.02em;
     padding: 0%;
     margin: 0%;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
 }
+
+mark
+{   
+    font-style: normal;
+    font-weight: bold;
+    background: none;
+}
+
 
 a
 {
@@ -187,7 +195,6 @@ label
 
 .filters_icon
 {
-   
    color: #0065fc;
    background-color: #deebff;
    border: 0.9em solid #deebff;
@@ -202,6 +209,266 @@ label
     background-color: #deebff;
 }
 
+#body_page
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#info_icon
+{
+    color: white;
+    background-color: #0065fc;
+    background-position: center;
+    border-radius: 2em;
+    border: 0.01em solid #f2f2f2;
+    margin-right: 1em;
+}
+
+#info
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+#lodgings
+{   
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #f2f2f2;
+    border-radius: 1em;
+    width: 64em;
+    height: 40em;
+    margin: 3em 0em 0em 0em;
+    padding: 3em 0em 2em 2em;
+}
+
+#lodgings_title
+{   
+    font-size: 1.2em;
+    font-weight: bold;
+    
+
+}
+
+#lodgings_pannel
+{   
+    width: 62em;
+    height: 35em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 2em; 
+    margin-left: 1em;
+}
+
+.lodgings_cards
+{
+    display: flex;
+    flex-direction: column;
+    width: 16em;
+    height: 13em;
+    border: solid 0.5em white;
+    border-radius: 1.5em;
+    margin-right: 3em;
+}
+
+.cards_info
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 0.8em;
+    padding-left: 0.4em;
+    padding-top: 0.4em;
+    background-color: white;
+    position: relative;
+    top: 7.8em;
+}
+
+.show_more
+{
+    font-style: 1em;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+#auberge_la_cannebiere
+{
+    background-repeat: no-repeat;
+    background-size: 16em 13em;
+    background-image: url("images/hebergements/4_small/aubergelacannebiere.jpg");   
+    background-position-y: -2.1em;
+}
+
+#hotel_du_port
+{
+    background-repeat: no-repeat;
+    background-size: 18em 13em;
+    background-image: url("images/hebergements/4_small/hotelduport.jpg");
+    background-position-y: -2.1em;
+}
+
+#hotel_les_mouettes
+{
+    background-repeat: no-repeat;
+    background-size: 16em 13em;
+    background-image: url("images/hebergements/4_small/hotellesmouettes.jpg");
+    background-position-y: -1.9em;
+}
+
+#hotel_de_la_mer
+{
+    background-repeat: no-repeat;
+    background-size: 16em 14em;
+    background-image: url("images/hebergements/4_small/hoteldelamer.jpg");
+    background-position-y: -2.8em;
+}
+
+#auberge_le_panier
+{
+    background-repeat: no-repeat;
+    background-size: 16em 13em;
+    background-image: url("images/hebergements/4_small/aubergelepanier.jpg");
+    background-position-y: -1.9em;
+}
+
+#hotel_chez_amina
+{
+    background-repeat: no-repeat;
+    background-size: 16em 13em;
+    background-image: url("images/hebergements/4_small/hotelchezamina.jpg");
+    background-position-y: -1.9em;
+}
+.star
+{
+    display: flex;
+    flex-direction: row;
+    height: 0.1em;
+    width: 0.1em;
+    color: #0065fc;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.empty_star
+{
+    display: flex;
+    flex-direction: row;
+    color: #f2f2f2;
+}
+
+.lodgings_name
+{   
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.lodgings_info
+{   
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 0.5em;
+}
+
+#most_popular
+{   
+    display: flex;
+    flex-direction: column;
+    margin: 3em 2em 0em 4em;
+    padding: 3em 2em 3em 2em;
+    width: 32em;
+    height: 39em;
+    background-color: #f2f2f2;
+    border-radius: 1em;
+}
+
+#most_popular_header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#most_popular_title
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#chart
+{
+    font-size: 1.4em;
+}
+
+.popular_cards
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 29em;
+    height: 10em;
+    border: solid 0.5em white;
+    border-radius: 1.5em;
+    margin-top: 1.5em;
+}
+
+.popular_cards_info
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 10em;
+    width: 16em;
+    background-color: white;
+    position: relative;  
+    left: 10.5em;
+}
+
+.popular_lodgings_info
+{   
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5em;
+    padding-right: 2em;
+    position: relative;
+    bottom: 1em;
+}
+
+#hotel_le_soleil_du_matin
+{
+    background-image: url(images/hebergements/4_small/hotellesoleildumatin.jpg);
+    background-repeat: no-repeat;
+    background-size: 16em 10em;
+    background-position-x: -3em;
+}
+
+#au_coeur_de_leau
+{
+    background-image: url(images/hebergements/4_small/aucoeurdeleau.jpg);
+    background-repeat: no-repeat;
+    background-size: 14em 10em;
+    background-position-x: -2.5em;
+}
+
+#hotel_tout_bleu_et_blanc
+{
+    background-image: url(images/hebergements/4_small/hoteltoutblancetbleue.jpg);
+    background-repeat: no-repeat;
+    background-size: 12em 12em;
+    background-position-x: -1em;
+}
 
 footer
 {   
@@ -209,6 +476,7 @@ footer
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin: -2em;
 }
 
 footer div
