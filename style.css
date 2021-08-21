@@ -7,6 +7,7 @@
 html
 {
     margin-left: 2em;
+    margin-right: 2em;
 }
 
 *
@@ -219,7 +220,6 @@ label
 {
     color: white;
     background-color: #0065fc;
-    background-position: center;
     border-radius: 2em;
     border: 0.01em solid #f2f2f2;
     margin-right: 1em;
@@ -468,6 +468,137 @@ label
     background-repeat: no-repeat;
     background-size: 12em 12em;
     background-position-x: -1em;
+}
+
+#activity
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 106em;
+    height: 45em;
+    
+}
+
+#activity_title
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 3em;
+}
+
+.activity_info
+{   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 4em;
+    width: auto;
+    background-color: white;
+    border-radius: 0em 0em 2em 2em;
+}
+
+.activity_name
+{
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    text-indent: 2em;
+}
+
+#vieux_port
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 35em;
+    width: 24em;
+    background: url(images/activites/3_medium/vieuxport.jpg);
+    background-repeat: no-repeat;
+    background-size: 30em 35em;
+    background-position-x: -3em;
+    border-radius: 2em;
+    margin-top: 2em;
+    box-shadow: 0em 0.1em 1em gray;
+}
+
+#fort_de_pomegues
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 17.5em;
+    width: 24em;
+    background: url(images/activites/2_large/fortdepomegues.jpg);
+    background-repeat: no-repeat;
+    background-size: 24em 40em;
+    background-position-y: -12em;
+    border-radius: 2em;
+    margin-top: 2.1em;
+    box-shadow: 0em 0.1em 1em gray;
+}
+
+#iles_du_frioul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 15em;
+    width: 24em;
+    background: url(images/activites/4_small/ilesdufrioul.jpg);
+    background-repeat: no-repeat;
+    background-size: 24em 15em;
+    border-radius: 2em;
+    margin-top: 2.1em;
+    box-shadow: 0em 0.1em 1em gray;
+}
+
+#parc_national_des_calanques
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 35em;
+    width: 24em;
+    background: url(images/activites/2_large/parcnationaldescalanques.jpg);
+    background-repeat: no-repeat;
+    background-size: 40em 35em;
+    background-position-x: -8em;
+    border-radius: 2em;
+    margin-top: 2.1em;
+    box-shadow: 0em 0.1em 1em gray;;
+}
+
+#notre_dames_de_la_garde
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 15em;
+    width: 24em;
+    background: url(images/activites/4_small/notredamedelagarde.jpg);
+    background-repeat: no-repeat;
+    background-size: 24em 15em;
+    border-radius: 2em;
+    margin-top: 2.1em;
+    box-shadow: 0em 0.1em 1em gray;
+}
+#parc_longchamp
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 17.5em;
+    width: 24em;
+    background: url(images/activites/3_medium/parclongchamp.jpg);
+    background-repeat: no-repeat;
+    background-size: 24em 17.5em;
+    border-radius: 2em;
+    margin-top: 2.1em;
+    box-shadow: 0em 0.1em 1em gray;
 }
 
 footer
