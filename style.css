@@ -47,6 +47,7 @@ a
     flex-direction: row;
     justify-content: space-between;
     margin-top: 2em;
+    width: 106em;
 }
 
 .anchor
@@ -607,7 +608,11 @@ footer
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin: -2em;
+    height: 14em;
+    width: 111em;
+    margin-left: -2em;
+    margin-right: -2em;
+    padding-left: 2em;
 }
 
 footer div
@@ -618,9 +623,9 @@ footer div
     justify-content: center;
     text-align: left;
     line-height: 200%;
-    height: 180px;
-    width: 20%;
-    padding: 0px 100px 0px 80px;      
+    
+    
+    padding: 0em 24em 0em 0em;      
 }
 
 footer div h1
