@@ -34,7 +34,7 @@ a
     color: black;
 }
 
-.reservia
+.reservia_icon
 {
     height: 3em;
     width: 6em;
@@ -54,7 +54,6 @@ a
 {
     display: flex;
     flex-direction: row;
-    list-style-type: none;
 }
 
 .list
@@ -587,6 +586,7 @@ label
     margin-top: 2.1em;
     box-shadow: 0em 0.1em 1em gray;
 }
+
 #parc_longchamp
 {
     display: flex;
@@ -633,4 +633,137 @@ footer div h1
     font-size: 110%;
     line-height: 220%;
     font-weight: bolder;
+}
+
+@media screen and (max-device-width: 480px)
+{   
+    
+    html
+    {
+        margin-right: 0em;
+        margin-left: 0em;
+        font-size: 1.5em;
+    }
+    
+    .reservia_icon
+    {
+        margin-left: 1em;
+        margin-right: 0em;
+        height: 5em;
+        width: 8em;
+    }
+
+    .reservia
+    {
+        width: 8em;
+        height: 5em;
+        
+    }
+
+    .anchor
+    {
+        justify-content: flex-start;
+        font-size: 1.25em; 
+    }
+
+
+    .list
+    {
+        display: block;
+        margin: 0em;
+    }
+
+    .title
+    {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: 9em;
+        flex-direction: column;  
+        flex-wrap: wrap;
+    }
+ 
+    #anchor_lodging
+    {   
+        display: block;
+        width: 15.4em;
+        text-align: center;
+    }
+
+    #anchor_activity
+    {   
+            
+    }
+
+    #register
+    {      
+       
+     
+        
+    }
+
+    #filters
+    {
+        flex-wrap: wrap;
+    }
+
+    #body_page
+    {
+        flex-direction: column-reverse;
+    }
+
+    #most_popular
+    {
+        padding: 2em;
+        margin: 0em;
+        width: auto;
+        height: auto;
+        border-radius: 0em;
+    }
+        
+    #lodgings
+    {
+        width: auto;
+        height: auto;
+        background: none;
+        padding: 0em;
+    }
+
+    #lodgings_pannel
+    {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+
+    #activity
+    {
+        width: auto;
+        height: auto;
+    }
+
+
+    footer
+    {   
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin-top: 4em;
+        padding-top: 2em;
+    }
+
+    footer div
+    {
+        font-size: 1.3em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+        width: auto;
+        height: auto;
+        padding: 0em;
+    }
+
+    footer div a
+    {
+        font-size: 1em;
+    }
 }
