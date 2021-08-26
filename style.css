@@ -691,15 +691,12 @@ footer div h1
     }
 
     #anchor_activity
-    {   
-            
+    {      
     }
 
     #register
     {      
        
-     
-        
     }
 
     #filters
@@ -712,6 +709,23 @@ footer div h1
         flex-direction: column-reverse;
     }
 
+    #info
+    {
+        justify-content: center;
+        font-size: 1.2em;
+        margin-bottom: 2em;
+    }
+
+    #most_popular_title
+    {
+        font-size: 1.5em;
+    }
+
+    #chart
+    {
+        font-size: 2em;
+    }
+
     #most_popular
     {
         padding: 2em;
@@ -720,7 +734,39 @@ footer div h1
         height: auto;
         border-radius: 0em;
     }
-        
+    
+    #au_coeur_de_leau
+    {
+        background-position-x: -2.2em 
+    }
+
+    #hotel_tout_bleu_et_blanc
+    {
+        background-position-x: 0em;
+        background-image: url(images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    }
+    .popular_cards
+    {
+        width: auto;
+    }
+
+    .popular_cards_info
+    {
+        width: 18em;
+        height: 10em;
+        left: 11.5em;
+        bottom:0.1em
+    } 
+    
+    #lodgings_pannel
+    {   
+        margin: 0em;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #lodgings
     {
         width: auto;
@@ -729,13 +775,78 @@ footer div h1
         padding: 0em;
     }
 
-    #lodgings_pannel
-    {
-        width: auto;
-        height: auto;
-        flex-direction: column;
+    .lodgings_cards
+    {   
+        margin: 0em;
+        margin-top: 1.5em;
+        width: 32em;
+        height: 15em;
+        box-shadow: 0em 0.0em 0.3em rgb(207, 207, 207);
     }
 
+    .cards_info
+    {
+        top: 9.6em;
+        right: 0.5em;
+        width: 31em;
+        padding-left: 1em;
+    }
+
+    #lodgings_title
+    {
+        padding-left: 1.5em;
+        font-size: 1.5em;
+    }
+
+    .lodgings_name
+    {
+        font-size: 1.25em;
+    }
+    #auberge_la_cannebiere
+    {
+        background-size: 32em 20em;
+        background-position-y: -5em;
+    }
+
+    #hotel_du_port
+    {
+        background-size: 32em 20em;
+        background-position-y: -6em;
+    }
+
+    #hotel_les_mouettes
+    {
+        background-size:32em 20em ;
+        background-position-y: -6em;
+    }
+
+    #hotel_de_la_mer
+    {
+        background-size:32em 30em ;
+        background-position-y: -10em ;
+    }
+
+    #auberge_le_panier
+    {
+        background-size:32em 15em ;
+       
+    }
+
+    #hotel_chez_amina
+    {   
+        background-image: url(images/hebergements/2_large/hotelchezamina.jpg);
+        background-position-y: -12em;
+        background-size:32em 32em ;
+    }
+    
+    .show_more
+    {
+        font-size: 1.5em;
+        margin-top: 2em;
+        padding-left: 1em;
+    }
+    
+    
     #activity
     {
         width: auto;
@@ -750,6 +861,7 @@ footer div h1
         height: auto;
         margin-top: 4em;
         padding-top: 2em;
+        margin-right: 0em;
     }
 
     footer div
@@ -759,11 +871,11 @@ footer div h1
         margin-bottom: 2em;
         width: auto;
         height: auto;
-        padding: 0em;
+        padding: 0em;  
     }
 
     footer div a
     {
-        font-size: 1em;
-    }
+      font-size: auto;
+    } 
 }
