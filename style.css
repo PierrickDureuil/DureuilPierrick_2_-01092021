@@ -699,11 +699,59 @@ footer div h1
        
     }
 
-    #filters
+    #p_intro
     {
+        font-size: 1.3em;
+        height: 4em;
+        margin-left: 2em;
+    }
+    .intro
+    {   
+        margin-right: 2em;
+        font-size: 1.2em;
+        margin-left: 0em;
+    }
+    .info_introduction
+    {   
+        margin-left: 0em;
+        font-size: 1em;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+    }
+    form
+    {   
+        justify-content: center;
+        font-size: 1.6em;
+        margin-top: 2em;
+        
+    }
+
+    #filter_text
+    {
+        font-size: 1.0em;
+        margin-right: 10em;
+        margin-bottom: 1em;
+    }
+
+    #filters
+    {   
+        font-size: 1.5em;
         flex-wrap: wrap;
     }
 
+    .tag
+    {
+        margin-bottom: 0.5em;
+        align-items: stretch;
+        margin-right: 0em;
+    }
+
+    .tag_name
+    {
+        padding: 0.5em 1em 0.5em 2.4em;
+    
+    }
     #body_page
     {
         flex-direction: column-reverse;
