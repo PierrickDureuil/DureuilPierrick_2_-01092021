@@ -3,7 +3,7 @@
         <head>
             <meta charset="utf-8" />
             <link rel="stylesheet" href="style.css" />
-           <script src="https://kit.fontawesome.com/3d32b69105.js" crossorigin="anonymous"></script>
+            <script src="https://kit.fontawesome.com/3d32b69105.js" crossorigin="anonymous"></script>
             <title>Reservia</title>
         </head>
 
@@ -14,9 +14,9 @@
                     <h1 class="reservia"> <img src="images/logo/Reservia.svg" alt="reservia" class="reservia_icon"> </h1>
 
                     <nav class="anchor">
-                        <p class="list"> <a href="#lodgings_title" id="anchor_lodging">Hébergements</a> </p>
-                        <p class="list"> <a href="#activity_title" id="anchor_activity">Activités</a> </p>
-                        <p class="list"> <a href="inscription.html" id="register">S'inscrire</a> </p>
+                        <p id="anchor_lodging"> <a href="#lodgings_title" id="text_anchor_lodging">Hébergements</a> </p>
+                        <p id="anchor_activity"> <a href="#activity_title"  id="text_anchor_activity">Activités</a> </p>
+                        <p id="register"> <a href="inscription.html" id="text_register">S'inscrire</a> </p>
                     </nav>
                 </div>
 
@@ -60,7 +60,10 @@
             </header>
 
             <section>
-                <aside id="info"> <i class="fas fa-info-circle" id="info_icon"></i>Plus de 500 logements sont disponible dans cette ville </aside>
+                <aside id="info"> 
+                    <div id="div_icon"> <i class="fas fa-info"></i> </div> 
+                    Plus de 500 logements sont disponible dans cette ville 
+                </aside>
                 
                 <div id="body_page">
                     <article id="lodgings">

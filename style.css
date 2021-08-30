@@ -56,16 +56,11 @@ a
     flex-direction: row;
 }
 
-.list
-{   
-    display: flex;
-    margin-right: 4em;
-}
-
-#anchor_lodging
+#text_anchor_lodging
 {
     font-size: 1em;
     font-style: normal;
+    margin-right: 4em;
     color: #0065fc;
 }
 
@@ -74,14 +69,32 @@ a
     font-size: 1em;
     font-style: normal;
     color: black;
+    
+    margin-right: 4em;
 }
 
-#register
+#text_register
 {
     font-size: 1em;
     font-style: normal;
     font-weight: bold;
     color: #0065fc;
+    margin-right: 4em;
+}
+
+#anchor_lodging
+{
+    order: 1;
+}
+
+#anchor_activity
+{
+    order: 2;
+}
+
+#register
+{
+    order: 3;
 }
 
 .intro
@@ -216,12 +229,22 @@ label
     flex-direction: row;
 }
 
-#info_icon
-{
-    color: white;
-    background-color: #0065fc;
+.fa-info:before
+{      
+    color: #0065fc;
+    font-size: 0.9em;
+}
+
+#div_icon
+{   
+    display: flex;
+    font-size: 0.9em;
+    border: #f2f2f2 solid 0.1em;
     border-radius: 2em;
-    border: 0.01em solid #f2f2f2;
+    height: 1.5em;
+    width: 1.5em;
+    justify-content: center;
+    align-items: center;
     margin-right: 1em;
 }
 
@@ -230,6 +253,7 @@ label
     display: flex;
     flex-direction: row;
     margin-top: 2em;
+    align-items: center;
 }
 
 #lodgings
@@ -645,58 +669,52 @@ footer div h1
         font-size: 1.5em;
     }
     
-    .reservia_icon
-    {
-        margin-left: 1em;
-        margin-right: 0em;
-        height: 5em;
-        width: 8em;
-    }
-
-    .reservia
-    {
-        width: 8em;
-        height: 5em;
-        
-    }
-
-    .anchor
-    {
-        justify-content: flex-start;
-        font-size: 1.25em; 
-    }
-
-
-    .list
-    {
-        display: block;
-        margin: 0em;
-    }
-
     .title
     {
         display: flex;
         flex-direction: row;
         width: auto;
-        height: 9em;
-        flex-direction: column;  
+        height: 7em; 
         flex-wrap: wrap;
     }
- 
+    .reservia_icon
+    {
+        margin-left: 1em;
+        height: 5em;
+        width: 8em;
+    }
+    .reservia
+    {
+        width: 8em;
+        height: 5em;
+        margin-right: 0em;
+        
+    }
+    .anchor
+    {      
+        flex-wrap: ;
+        font-size: 1.25em; 
+        align-items: center;
+    }
     #anchor_lodging
     {   
-        display: block;
-        width: 15.4em;
-        text-align: center;
+        order: 2;
+        flex-wrap: wrap;
+        width: 50%;
+        margin: 0em;
     }
-
     #anchor_activity
-    {      
+    {
+        order: 3;
+        flex-wrap: wrap;
+        width: 50%;
+        margin: 0em;
     }
-
     #register
     {      
-       
+       order: 1;
+       flex-wrap: nowrap;
+       margin: 0em;
     }
 
     #p_intro
@@ -705,12 +723,14 @@ footer div h1
         height: 4em;
         margin-left: 2em;
     }
+
     .intro
     {   
         margin-right: 2em;
         font-size: 1.2em;
         margin-left: 0em;
     }
+
     .info_introduction
     {   
         margin-left: 0em;
@@ -719,12 +739,12 @@ footer div h1
         height: auto;
         width: auto;
     }
+
     form
     {   
         justify-content: center;
         font-size: 1.6em;
         margin-top: 2em;
-        
     }
 
     #filter_text
