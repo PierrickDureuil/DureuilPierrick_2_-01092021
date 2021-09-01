@@ -80,24 +80,6 @@ a
     font-weight: bold;
     color: #0065fc;
     margin-right: 4em;
-<<<<<<< HEAD
-=======
-}
-
-#anchor_lodging
-{
-    order: 1;
-}
-
-#anchor_activity
-{
-    order: 2;
-}
-
-#register
-{
-    order: 3;
->>>>>>> master
 }
 
 .intro
@@ -683,20 +665,14 @@ footer div h1
     .title
     {
         display: flex;
-<<<<<<< HEAD
         flex-direction: column;
         width: auto;
         height: auto; 
         flex-wrap: wrap;
     }
 
-=======
-        flex-direction: row;
-        width: auto;
-        height: 7em; 
-        flex-wrap: wrap;
-    }
->>>>>>> master
+
+
     .reservia_icon
     {
         margin-left: 1em;
@@ -712,14 +688,9 @@ footer div h1
     }
     .anchor
     {      
-<<<<<<< HEAD
-=======
-        flex-wrap: ;
->>>>>>> master
         font-size: 1.25em; 
         align-items: center;
     }
-<<<<<<< HEAD
 
     #anchor_lodging
     {   
@@ -728,34 +699,18 @@ footer div h1
         text-align: center;
         padding-bottom: 1em;
         border-bottom: solid 0.2em #0065fc;
-=======
-    #anchor_lodging
-    {   
-        order: 2;
-        flex-wrap: wrap;
-        width: 50%;
-        margin: 0em;
->>>>>>> master
     }
     #anchor_activity
     {
-<<<<<<< HEAD
         width: 50%;
         margin-top: 1em;
         text-align: center;
         margin-right: 0em;
         padding-bottom: 1em;
         border-bottom: solid 0.2em #f2f2f2;
-=======
-        order: 3;
-        flex-wrap: wrap;
-        width: 50%;
-        margin: 0em;
->>>>>>> master
     }
     #register
     {      
-<<<<<<< HEAD
        margin: 0em;
        position: absolute;
        top: 3.5em;
@@ -775,11 +730,6 @@ footer div h1
     #text_register
     {
         margin: 0em;
-=======
-       order: 1;
-       flex-wrap: nowrap;
-       margin: 0em;
->>>>>>> master
     }
 
     #p_intro
@@ -810,7 +760,6 @@ footer div h1
         justify-content: center;
         font-size: 1.8em;
         margin-top: 2em;
-<<<<<<< HEAD
         margin-left: 0.5em;
     }
 
@@ -824,8 +773,6 @@ footer div h1
         display: block;
         position: relative;
         right: 0.5em;
-=======
->>>>>>> master
     }
 
     #submit_button
