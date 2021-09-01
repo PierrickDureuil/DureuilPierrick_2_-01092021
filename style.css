@@ -80,6 +80,8 @@ a
     font-weight: bold;
     color: #0065fc;
     margin-right: 4em;
+<<<<<<< HEAD
+=======
 }
 
 #anchor_lodging
@@ -95,6 +97,7 @@ a
 #register
 {
     order: 3;
+>>>>>>> master
 }
 
 .intro
@@ -154,7 +157,7 @@ label
     border: solid 0.09em #f2f2f2     
 }
 
-#submit
+#submit_text
 {   
     color: white;
     border: #0065fc;
@@ -163,7 +166,12 @@ label
     width: 7em;
 }
 
-#submit:hover
+#submit_div
+{
+    display: none;
+}
+
+#submit_text:hover
 {
    border: solid 0.08em #ffffff ;
 }
@@ -211,11 +219,14 @@ label
 {
    color: #0065fc;
    background-color: #deebff;
-   border: 0.9em solid #deebff;
    border-radius: 2em;
    font-size: 0.95em;
-   position: relative;
-   z-index: 2;
+   z-index: 1;
+   display: flex;
+   width: 3em;
+   height: 3em;
+   justify-content: center;
+   align-items: center;
 }
 
 .tag_name:hover
@@ -672,11 +683,20 @@ footer div h1
     .title
     {
         display: flex;
+<<<<<<< HEAD
+        flex-direction: column;
+        width: auto;
+        height: auto; 
+        flex-wrap: wrap;
+    }
+
+=======
         flex-direction: row;
         width: auto;
         height: 7em; 
         flex-wrap: wrap;
     }
+>>>>>>> master
     .reservia_icon
     {
         margin-left: 1em;
@@ -692,29 +712,74 @@ footer div h1
     }
     .anchor
     {      
+<<<<<<< HEAD
+=======
         flex-wrap: ;
+>>>>>>> master
         font-size: 1.25em; 
         align-items: center;
     }
+<<<<<<< HEAD
+
+    #anchor_lodging
+    {   
+        width: 50%;
+        margin-top: 1em;
+        text-align: center;
+        padding-bottom: 1em;
+        border-bottom: solid 0.2em #0065fc;
+=======
     #anchor_lodging
     {   
         order: 2;
         flex-wrap: wrap;
         width: 50%;
         margin: 0em;
+>>>>>>> master
     }
     #anchor_activity
     {
+<<<<<<< HEAD
+        width: 50%;
+        margin-top: 1em;
+        text-align: center;
+        margin-right: 0em;
+        padding-bottom: 1em;
+        border-bottom: solid 0.2em #f2f2f2;
+=======
         order: 3;
         flex-wrap: wrap;
         width: 50%;
         margin: 0em;
+>>>>>>> master
     }
     #register
     {      
+<<<<<<< HEAD
+       margin: 0em;
+       position: absolute;
+       top: 3.5em;
+       right: 1em;
+    }
+
+    #text_anchor_lodging
+    {
+        margin: 0em;
+    }
+
+    #text_anchor_activity
+    {
+        margin: 0em;
+    }
+
+    #text_register
+    {
+        margin: 0em;
+=======
        order: 1;
        flex-wrap: nowrap;
        margin: 0em;
+>>>>>>> master
     }
 
     #p_intro
@@ -743,10 +808,57 @@ footer div h1
     form
     {   
         justify-content: center;
-        font-size: 1.6em;
+        font-size: 1.8em;
         margin-top: 2em;
+<<<<<<< HEAD
+        margin-left: 0.5em;
     }
 
+    #submit_text
+    {
+        display: none;
+    }
+
+    #submit_div
+    {
+        display: block;
+        position: relative;
+        right: 0.5em;
+=======
+>>>>>>> master
+    }
+
+    #submit_button
+    {
+       height: 100%;
+       width: 2em;
+       border-radius: 0.6em;
+       border: #0065fc;
+       background-color: #0065fc;
+    }
+
+    .fa-search
+    {
+        position: absolute;
+        right: 0.8em;
+        top: 0.8em;
+        color:white; 
+        font-size: 0.8em;
+    }
+
+    #lieu
+    {
+        width: 13em;
+    }
+
+    label
+    {
+        border-radius: 0.6em 0em 0em 0.6em;
+    }
+    .fa-map-marker-alt:before 
+    {
+        font-size: 0.8em;
+    }
     #filter_text
     {
         font-size: 1.0em;
