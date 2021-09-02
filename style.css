@@ -652,7 +652,8 @@ footer div h1
     font-weight: bolder;
 }
 
-@media screen and (max-device-width: 480px)
+
+@media screen and (max-device-width: 567px)
 {   
     
     html
@@ -670,8 +671,6 @@ footer div h1
         height: auto; 
         flex-wrap: wrap;
     }
-
-
 
     .reservia_icon
     {
@@ -1075,4 +1074,201 @@ footer div h1
     {
       font-size: auto;
     } 
+
 }
+
+@media screen and (min-device-width: 568px) and (max-device-width:1112px)
+{
+    html
+    {   
+       width: auto; 
+       margin-left: 0em;
+       margin-right: 0em; 
+       font-size: 1.3em;
+       
+    }
+
+    header
+    {
+        font-size: 1.3em
+
+    }
+    .title
+    {
+        width: auto;
+        height: auto; 
+    }
+
+    #text_register
+    {
+        margin-right: 2em;
+    }
+
+    form
+    {
+        justify-content: center;
+        margin-top: 2em;
+        font-size: 1.2em;
+    }
+
+    #filter_text
+    {
+        margin-right: 18em;
+        margin-bottom: 0.5em;
+        font-size: 1.2em;
+        position: relative;
+        right: 2em;
+    }
+
+    .tag
+    {
+        margin-right: 0em;
+        margin-top: 0.5em;
+       
+    }
+
+    #filters
+    {
+        width: auto;
+        height: auto;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+    #body_page
+    {
+        width: auto;
+        height: auto; 
+        flex-direction: column;
+    }
+
+    #info
+    {
+        font-size: 1.2em;
+        justify-content: center;
+        margin-top: em;
+    }
+
+    #lodgings_title
+    {
+        font-size: 1.4em;
+    }
+
+    #lodgings
+    {   
+        margin: 0em;
+        width: auto;
+        height: auto; 
+    }
+
+    .lodgings_cards
+    {
+        margin-right: 2em;
+        margin-top: 2em;
+    }
+
+    .cards_info
+    {
+        width: 15.7em;
+        right: 0.2em;
+        border-radius: 0em 0em 1em 1em;
+    }
+
+    #lodgings_pannel
+    {
+        width: auto;
+        height: auto; 
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+
+    .show_more
+    {
+        margin-top: 1.5em;
+        font-size: 1.2em;
+    }
+
+    .popular_cards_info
+    {
+        bottom: 0.1em;
+    }
+
+    #most_popular_title
+    {
+        font-size: 1.3em;
+    }
+
+    #activity_title
+    {
+        font-size: 1.5em;
+        margin-left: 2em;
+    
+    }
+
+    #activity
+    {
+        width: auto;
+        height: auto; 
+        flex-direction: row;
+        font-size: 0.8em;
+        margin: 1em;
+        justify-content: center;
+        align-items: ;
+    }
+
+    #vieux_port
+    {
+        order: 0;
+    }
+
+    #fort_de_pomegues
+    {
+        order: 1;
+    }
+
+    #parc_national_des_calanques 
+    {
+        order: 0;
+        margin-left: 2em;
+    }
+
+    #parc_longchamp
+    {
+        order: 1;
+        margin-left: 2em;
+    }
+
+    #iles_du_frioul
+    {
+        order: 2;
+       
+    }
+
+    #notre_dames_de_la_garde
+    {
+        order: 2;
+        margin-left: 2em;
+    }
+
+    footer
+    {
+        width: auto;
+        height: auto; 
+        flex-wrap: wrap;
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-top: 3em;
+        padding-left: 0em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        justify-content: space-around;
+    }
+
+    footer div
+    {
+        padding: 0em 0em 0em 0em;
+    }
+}
+
+
+
