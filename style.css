@@ -68,7 +68,6 @@ a
     font-size: 1em;
     font-style: normal;
     color: black;
-    
     margin-right: 4em;
 }
 
@@ -1081,8 +1080,6 @@ footer div h2
        width: auto; 
        margin-left: 0em;
        margin-right: 0em; 
-       font-size: 1.0em;
-       
     }
 
     header
@@ -1097,6 +1094,10 @@ footer div h2
         height: auto; 
     }
 
+    .anchor
+    {
+        font-size: 0.9em;
+    }
     #text_register
     {
         margin-right: 2em;
@@ -1107,27 +1108,31 @@ footer div h2
         justify-content: center;
         margin-top: 2em;
         margin-bottom: 4em;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     #p_intro
     {   
         margin-top: 4em;
         text-align: center;
+        font-size: 0.9em;
     }
     #filter_text
     {
         width: 100%;
         margin-bottom: 0.5em;
-        font-size: 1.2em;
-        
+        font-size: 1em;
+        text-align : center;
+        display: inline;
+        margin-right: 0%;
     }
 
     .tag
-    {
+    {   
+        margin-left: 1em;
         margin-right: 0em;
         margin-top: 0.5em;
-       
+       font-size: 0.9em;
     }
 
     #filters
@@ -1148,53 +1153,72 @@ footer div h2
 
     #info
     {
-        font-size: 1.2em;
+        font-size: 0.9em;
         justify-content: center;
     }
 
     #lodgings_title
     {
-        font-size: 1.4em;
+        font-size: 1.3em;
+        text-indent: 2%;
     }
 
     #lodgings
     {   
         margin: 0em;
         width: auto;
-        height: auto; 
+        height: ; 
+        padding-left: 0%;
     }
 
+    .lodgings_name
+    {
+        font-size: 0.9em;
+    }
+
+    .lodgings_info
+    {
+        font-size: 0.8em;
+    }
+
+    .star
+    {
+        font-size: 0.8em;
+    }
     .lodgings_cards
     {
-        margin-right: 2em;
+        margin-right: 0%;
         margin-top: 2em;
     }
 
     .cards_info
     {
-        width: 15.7em;
-        right: 0.2em;
+        width: 100%;
+        height: auto;
+        right: 0.8%;
         border-radius: 0em 0em 1em 1em;
     }
 
     #lodgings_pannel
     {
-        width: auto;
+        width: 100%;
         height: auto; 
         margin-left: 0em;
         margin-top: 0em;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .show_more
     {
         margin-top: 1.5em;
         font-size: 1.2em;
+        text-indent: 2%;
     }
 
-    .popular_cards_info
+    #most_popular
     {
-        bottom: 0.1em;
+        width: auto;
+        height: auto;
     }
 
     #most_popular_title
@@ -1204,53 +1228,61 @@ footer div h2
 
     #activity_title
     {
-        font-size: 1.5em;
-        margin-left: 2em;
-    
+        font-size: 1.3em;
+        margin-bottom: 3%;
+        text-align: center;
     }
 
     #activity
-    {
-        width: auto;
-        height: auto; 
+    {   
+        width: 100%;
+        height: auto;
         flex-direction: row;
-        font-size: 0.8em;
-        margin: 1em;
-        justify-content: center;
+        justify-content: space-around;   
+    }
+
+    .activity_name
+    {
+        font-size: 0.9em;
     }
 
     #vieux_port
     {
         order: 0;
+        width: 45%;
+    
+        
     }
 
     #fort_de_pomegues
     {
         order: 1;
+        width: 45%;
     }
 
     #parc_national_des_calanques 
     {
         order: 0;
-        margin-left: 2em;
+        width: 45%;
+        left: 1.5%;
     }
 
     #parc_longchamp
     {
         order: 1;
-        margin-left: 2em;
+        width: 45%;
     }
 
     #iles_du_frioul
     {
         order: 2;
-       
+        width: 45%;
     }
 
     #notre_dames_de_la_garde
     {
         order: 2;
-        margin-left: 2em;
+        width: 45%;
     }
 
     footer
@@ -1265,6 +1297,7 @@ footer div h2
         padding-top: 1.5em;
         padding-bottom: 1.5em;
         justify-content: space-around;
+        font-size: 0.9em;
     }
 
     footer div
