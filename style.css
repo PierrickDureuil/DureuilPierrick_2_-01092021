@@ -157,7 +157,6 @@ label
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 2em;
-    
 }
 
 #filter_text
@@ -174,7 +173,7 @@ label
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 1.5%; 
+    margin-right: 1.5%
 }
 
 .tag_name
@@ -482,7 +481,7 @@ label
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     height: 45em;
     
@@ -614,7 +613,7 @@ footer
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    height: 16em;
+    height: 14em;
     width: 102%;
     margin-left: -2em;
     padding-left: 2em;
@@ -649,6 +648,11 @@ footer div h2
         font-size: 0.9em;
     }
     
+    *
+    {
+        font-size: 1em;
+    }
+
     .title
     {
         display: flex;
@@ -673,7 +677,7 @@ footer div h2
     }
     .anchor
     {      
-        font-size: 1.25em; 
+        font-size: 1.20em; 
         align-items: center;
     }
 
@@ -727,6 +731,7 @@ footer div h2
     {   
         margin-right: 2em;
         margin-left: 0em;
+        font-size: 1.3em;
     }
 
     .info_introduction
@@ -741,7 +746,7 @@ footer div h2
     form
     {   
         justify-content: center;
-        font-size: 1.3em;
+        font-size: 1.4em;
         margin-top: 1.5em;
         margin-left: 0.5em;
     }
@@ -798,8 +803,10 @@ footer div h2
 
     #filters
     {   
-        font-size: 1em;
+        width: 95%;
+        font-size: 1.1em;
         flex-wrap: wrap;
+        padding-left: 0.5em;
     }
 
     .tag
@@ -849,21 +856,24 @@ footer div h2
     
     #hotel_le_soleil_du_matin
     {
-       background-size: 15em 100%; 
+       background-size: 18em 150%; 
+       background-position-x: -2em;
+       background-position-y: -3em ;
     }
 
     #au_coeur_de_leau
     {
-        background-position-x: -1.9em; 
-        background-size: 15em 100%;
+        background-position-x: -3em;
+        background-position-y: -3em ;
+        background-size: 18em 170%;
     }
 
     #hotel_tout_bleu_et_blanc
     {
-        background-position-x: -2em;
-        background-position-y: -8em;
+        background-position-x: -3em;
+        background-position-y: -7em;
         background-image: url(images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
-        background-size: 15em 250%;
+        background-size: 18em 250%;
     }
     .popular_cards
     {
@@ -912,7 +922,7 @@ footer div h2
 
     .cards_info
     {
-        top: 9.6em;
+        
         right: 0.5em;
         width: 100%;
         padding-left: 1em;
@@ -1002,7 +1012,7 @@ footer div h2
         width: 90%;
         height: 17.5em;      
         background: url(images/activites/3_medium/vieuxport.jpg);
-        background-size: 32em 20em;
+        background-size: 100% 100%;
         background-position-y: -0em;
         box-shadow: 0em 0.0em 0.3em rgb(207, 207, 207);
     }
@@ -1015,6 +1025,7 @@ footer div h2
         background-size: 100% 200%;
         background-position-y: -10em;
         box-shadow: 0em 0.0em 0.3em rgb(207, 207, 207);
+        margin-top: 3em;
     }
 
     #iles_du_frioul
@@ -1022,8 +1033,9 @@ footer div h2
         width: 90%;
         height: 17.5em;
         background-size: 130% 100%;
-        background-position-y: -1em;
+        background-position-y: -3em;
         box-shadow: 0em 0.0em 0.3em rgb(207, 207, 207); 
+        margin-top: 3em;
     }
 
     #parc_national_des_calanques
@@ -1033,6 +1045,7 @@ footer div h2
         background-size: 130% 100%;
         background-position-x: -3em;
         box-shadow: 0em 0.0em 0.3em rgb(207, 207, 207); 
+        margin-top: 3em;
     }
 
     #notre_dames_de_la_garde
@@ -1041,6 +1054,7 @@ footer div h2
         height: 17.5em;
         background-size: 100% 100%;
         box-shadow: 0em 0.0em 0.3em rgb(207, 207, 207);
+        margin-top: 3em;
     }
 
     #parc_longchamp
@@ -1050,6 +1064,7 @@ footer div h2
         background-size: 100% 100%;
         background-position-y: -0em;
         box-shadow: 0em 0.0em 0.3em rgb(207, 207, 207);
+        margin-top: 3em;
     }
 
     footer
@@ -1064,7 +1079,7 @@ footer div h2
 
     footer div
     {
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin-left: 2em;
         margin-bottom: 2em;
         width: auto;
