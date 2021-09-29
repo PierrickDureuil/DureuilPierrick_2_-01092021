@@ -13,7 +13,6 @@ html
 *
 {      
     font-family: 'raleway', Arial, serif;
-    font-size: 1.02em;
     padding: 0%;
     margin: 0%;
     font-style: normal;
@@ -35,8 +34,8 @@ a
 
 .reservia_icon
 {
-    height: 3em;
-    width: 6em;
+    height: 100%;
+    width: 100%;
     color: #0065fc;    
 }
 
@@ -57,7 +56,6 @@ a
 
 #text_anchor_lodging
 {
-    font-size: 1em;
     font-style: normal;
     margin-right: 4em;
     color: #0065fc;
@@ -65,7 +63,6 @@ a
 
 #anchor_activity
 {
-    font-size: 1em;
     font-style: normal;
     color: black;
     margin-right: 4em;
@@ -73,7 +70,6 @@ a
 
 #text_register
 {
-    font-size: 1em;
     font-style: normal;
     font-weight: bold;
     color: #0065fc;
@@ -82,36 +78,33 @@ a
 
 .intro
 {   
-    font-size: 1.2em;
+    font-size: 115%;
     font-weight: bold;
     margin-top: 1.5em;
-    margin-left: 0.5em;
 }
 
 .info_introduction
 {   
-    margin-left: 1em;
     line-height: 2em;
     font-style: normal;
-    font-size: 0.9em;
+    font-size: 90%;
 }
 
 form
 {   
     display: flex;
-    margin-top: 1em;   
+    margin-top: 1em;
+    height: 43px;
 }
 
 label
 {   
     
     display: flex; 
-    position: relative; 
     border: solid 1px #f2f2f2;
     border-radius: 0.8em 0em 0em 0.8em;
     background-color: #f2f2f2;
-    height: 2em;
-    width: 2em; 
+    width: 40px; 
 }
 
 #position
@@ -119,16 +112,16 @@ label
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 2em;
-    height: 2em;
+    width: 40px; 
+    height: 43px;
 }
 
 #lieu
 {
-    position: relative;
     font-weight: bold;
     font-style: normal;
-    border: solid 0.09em #f2f2f2     
+    border: solid 0.09em #f2f2f2; 
+    font-size: 95%;   
 }
 
 #submit_text
@@ -138,6 +131,7 @@ label
     border-radius: 0em 0.8em 0.8em 0em;
     background-color: #0065fc;
     width: 7em;
+
 }
 
 #submit_div
@@ -163,27 +157,27 @@ label
 {   
     display: flex;
     align-items: center;
-    margin-right: 5%;
+    margin-right: 4%;
     font-weight: bold;
-    margin-left: 0.8%;
 }
 
 .tag
 {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin-right: 1.5%
+    margin-right: 2%
 }
 
 .tag_name
 {
-    
+    display: flex;
+    align-items: center;
+    font-size: 90%;
     font-weight: bold;
-    font-size: 1em;
     border: 0.2em solid #f2f2f2;
     border-radius: 2em;
-    padding: 0.5em 2em 0.5em 3em;
+    padding-right: 15px;
+    padding-left: 40px;
     position: relative;
     right: 2em;
     z-index: 0;
@@ -195,7 +189,7 @@ label
    color: #0065fc;
    background-color: #deebff;
    border-radius: 2em;
-   font-size: 0.95em;
+   font-size: 90%;
    z-index: 1;
    display: flex;
    width: 3em;
@@ -238,6 +232,7 @@ label
 {
     display: flex;
     flex-direction: row;
+    font-size: 90%;
     margin-top: 2em;
     align-items: center;
 }
@@ -250,116 +245,82 @@ label
     background-color: #f2f2f2;
     border-radius: 1em;
     width: 64%;
-    height: 40%;
+    height: auto;
     margin: 3% 0% 0% 0%;
-    padding: 3% 0% 2% 2%;
 }
 
-#lodgings_title
+.lodgings_title
 {   
-    font-size: 1.2em;
+    font-size: 120%;
+    text-indent: 25px;
+    margin-top: 30px;
     font-weight: bold;
 }
 
 #lodgings_pannel
 {   
     width: 100%;
-    height: 35em;
+    height: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-top: 2%; 
-    margin-left: 1%;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.picture
+{   
+    width: 100%;
+    height: 64%;
+    object-fit: cover;
 }
 
 .lodgings_cards
 {
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
-    width: 25%;
-    height: 13em;
+    width: 27%;
+    height: 35%;
     border: solid 0.5em white;
     border-radius: 1.5em;
-    margin-right: 6%;
+}
+
+.link
+{
+    width: 100%;
+    height: 100%;
 }
 
 .cards_info
 {
     width: 100%;
+    height: 36%;
     display: flex;
     flex-direction: column;
-    padding-bottom:4%;
-    padding-left: 2%;
-    padding-top: 2%;
+    border-radius: 0em 0em 1em 1em;
     background-color: white;
-    position: relative;
-    right: 0.4%;
+    padding-top: 1.5%;
+    box-sizing: border-box;
 }
 
 .show_more
-{
+{   
+    font-size: 100%;
     font-weight: bold;
-    padding-bottom: 1%;
+    text-indent: 25px;
+    padding-top: 5%;
 }
 
-#auberge_la_cannebiere
-{
-    background-repeat: no-repeat;
-    background-size: 16em 13em;
-    background-image: url("images/hebergements/4_small/aubergelacannebiere.jpg");   
-    background-position-y: -2.1em;
-}
 
-#hotel_du_port
-{
-    background-repeat: no-repeat;
-    background-size: 18em 13em;
-    background-image: url("images/hebergements/4_small/hotelduport.jpg");
-    background-position-y: -2.1em;
-}
-
-#hotel_les_mouettes
-{
-    background-repeat: no-repeat;
-    background-size: 16em 13em;
-    background-image: url("images/hebergements/4_small/hotellesmouettes.jpg");
-    background-position-y: -1.9em;
-}
-
-#hotel_de_la_mer
-{
-    background-repeat: no-repeat;
-    background-size: 16em 14em;
-    background-image: url("images/hebergements/4_small/hoteldelamer.jpg");
-    background-position-y: -2.8em;
-}
-
-#auberge_le_panier
-{
-    background-repeat: no-repeat;
-    background-size: 16em 13em;
-    background-image: url("images/hebergements/4_small/aubergelepanier.jpg");
-    background-position-y: -1.9em;
-}
-
-#hotel_chez_amina
-{
-    background-repeat: no-repeat;
-    background-size: 16em 13em;
-    background-image: url("images/hebergements/4_small/hotelchezamina.jpg");
-    background-position-y: -1.9em;
-}
 .star
-{
+{   
     display: flex;
     flex-direction: row;
-    height: 0.1em;
-    width: 0.1em;
     color: #0065fc;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    text-indent: 55%;
+    font-size: 70%;
+    padding-top: 4%;
+   
 }
 
 .empty_star
@@ -371,27 +332,27 @@ label
 
 .lodgings_name
 {   
-    font-size: 1em;
+    font-size: 90%;
     font-weight: bold;
     font-style: normal;
+    padding-left: 4%;
 }
 
 .lodgings_info
 {   
-    font-size: 0.9em;
+    font-size: 80%;
     font-style: normal;
     font-weight: normal;
-    padding-top: 0.5em;
+    padding-top:2%;
+    padding-left: 4%;
 }
 
 #most_popular
 {   
     display: flex;
     flex-direction: column;
-    margin: 3% 2% 0% 4%;
-    padding: 3% 2% 3% 2%;
-    width: 31%;
-    height: 39em;
+    width: 35%;
+    margin: 3% 0% 0% 4%;
     background-color: #f2f2f2;
     border-radius: 1em;
 }
@@ -400,33 +361,43 @@ label
 {
     display: flex;
     flex-direction: row;
+    width: 100%;
     justify-content: space-between;
-    
+    align-items:baseline;
 }
 
-#most_popular_title
+#popular_lodgings_pannel
 {
-    font-size: 1.2em;
-    font-weight: bold;
-    font-style: normal;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 
 #chart
 {
-    font-size: 1.4em;
+    font-size: 140%;
+    padding-right: 7%;
 }
 
 .popular_cards
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    width: 95%;
-    height: 10em;
+    width: 80%;
+    height: 23%;
     border: solid 0.5em white;
     border-radius: 1.5em;
-    margin-top: 5%;
+}
+
+.popular_picture
+{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;   
 }
 
 .popular_cards_info
@@ -435,176 +406,105 @@ label
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 1em;
-    padding-right: 1em;
-    height: 10em;
-    width: 55%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60%;
+    height: 100%;
     background-color: white; 
-    position: relative;
-    left: 0.3%;
 }
 
 .popular_lodgings_info
 {   
     display: flex;
     flex-wrap: wrap;
-    line-height: 150%;
 }
 
-#hotel_le_soleil_du_matin
+.activity
 {
-    background-image: url(images/hebergements/4_small/hotellesoleildumatin.jpg);
-    background-repeat: no-repeat;
-    background-size: 16em 10em;
-    background-position-x: -3em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 650px;
 }
 
-#au_coeur_de_leau
-{
-    background-image: url(images/hebergements/4_small/aucoeurdeleau.jpg);
-    background-repeat: no-repeat;
-    background-size: 14em 10em;
-    background-position-x: -2.5em;
-}
-
-#hotel_tout_bleu_et_blanc
-{
-    background-image: url(images/hebergements/4_small/hoteltoutblancetbleue.jpg);
-    background-repeat: no-repeat;
-    background-size: 12em 12em;
-    background-position-x: -1em;
-}
-
-#activity
+#activity_pannel
 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
+    align-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
-    height: 45em;
-    
+    height: 600px;
 }
 
 #activity_title
 {
-    font-size: 1.2em;
+    font-size: 120%;
     font-weight: bold;
     font-style: normal;
-    margin-top: 3em;
+}
+
+.activity_picture
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1em 1em 0em 0em;
+}
+
+.activity_cards_1
+{   
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 22%;
+    border-radius: 1em;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.activity_cards_2
+{   
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    height: 250px;
+    width: 22%;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.activity_cards_3
+{   
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    height: 200px;
+    width: 22%;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.activity_view
+{
+    height: calc(100% - 40px);
+    width: 100%;
 }
 
 .activity_info
 {   
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 4em;
-    width: auto;
     background-color: white;
-    border-radius: 0em 0em 2em 2em;
+    border-radius: 0em 0em 1em 1em;
+    border-bottom: 1px gray;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    text-indent: 20px;
 }
 
 .activity_name
 {
-    font-size: 1em;
+    font-size: 90%;
     font-weight: bold;
-    font-style: normal;
-    text-indent: 2em;
-}
-
-#vieux_port
-{   
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 35em;
-    width: 24%;
-    background: url(images/activites/3_medium/vieuxport.jpg);
-    background-repeat: no-repeat;
-    background-size: 30em 35em;
-    background-position-x: -3em;
-    border-radius: 2em;
-    margin-top: 2%;
-    box-shadow: 0em 0.1em 1em gray;
-}
-
-#fort_de_pomegues
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 17.5em;
-    width: 24%;
-    background: url(images/activites/2_large/fortdepomegues.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 220%;
-    background-position-y: -12em;
-    border-radius: 2em;
-    margin-top: 2.1%;
-    box-shadow: 0em 0.1em 1em gray;
-}
-
-#iles_du_frioul
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 15em;
-    width: 24%;
-    background: url(images/activites/4_small/ilesdufrioul.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 2em;
-    margin-top: 2.1%;
-    box-shadow: 0em 0.1em 1em gray;
-}
-
-#parc_national_des_calanques
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 35em;
-    width: 24%;
-    background: url(images/activites/2_large/parcnationaldescalanques.jpg);
-    background-repeat: no-repeat;
-    background-size: 40em 35em;
-    background-position-x: -8em;
-    border-radius: 2em;
-    margin-top: 2.1%;
-    box-shadow: 0em 0.1em 1em gray;;
-}
-
-#notre_dames_de_la_garde
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 15em;
-    width: 24%;
-    background: url(images/activites/4_small/notredamedelagarde.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 2em;
-    margin-top: 2.1%;
-    box-shadow: 0em 0.1em 1em gray;
-}
-
-#parc_longchamp
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 17.5em;
-    width: 24%;
-    background: url(images/activites/3_medium/parclongchamp.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 2em;
-    margin-top: 2.1%;
-    box-shadow: 0em 0.1em 1em gray;
 }
 
 footer
@@ -614,20 +514,18 @@ footer
     flex-direction: row;
     justify-content: flex-start;
     height: 14em;
-    width: 102%;
-    margin-left: -2em;
-    padding-left: 2em;
+    width: 100%;
+    
 }
 
 footer div
 {   
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: left;
     line-height: 200%;
-    padding: 0em 20% 0em 0em;      
+    padding-right: 10%; 
+    padding-left: 5%;
+    padding-top: 40px;    
 }
 
 footer div h2
@@ -635,6 +533,11 @@ footer div h2
     font-size: 110%;
     line-height: 220%;
     font-weight: bolder;
+}
+
+footer div a
+{
+    font-size: 95%;
 }
 
 
@@ -645,14 +548,8 @@ footer div h2
     {
         margin-right: 0em;
         margin-left: 0em;
-        font-size: 0.9em;
     }
     
-    *
-    {
-        font-size: 1em;
-    }
-
     .title
     {
         display: flex;
@@ -665,19 +562,18 @@ footer div h2
     .reservia_icon
     {
         margin-left: 1em;
-        height: 5em;
-        width: 8em;
+        width: 30%;
+        height: 100%;
     }
     .reservia
     {
-        width: 8em;
-        height: 5em;
         margin-right: 0em;
-        
+        width: 100%;
+        height: 100%;
     }
     .anchor
     {      
-        font-size: 1.20em; 
+        font-size: 120%; 
         align-items: center;
     }
 
@@ -890,10 +786,6 @@ footer div h2
         border-radius: 0em 1em 1em 0em
     } 
 
-    .popular_lodgings_info
-    {   
-        font-size: 0.8em;
-    }
     #lodgings_pannel
     {   
         margin: 0em;
@@ -928,14 +820,19 @@ footer div h2
         padding-left: 1em;
     }
 
-    #lodgings_title
+    .lodgings_title
     {   padding-left: 0.5em;
         font-size: 1.4em;
     }
 
     .lodgings_name
     {
-        font-size: 1.20em;
+        font-size: 1.1em;
+    }
+
+    .lodgings_info
+    {
+        font-size: 1em;
     }
     #auberge_la_cannebiere
     {
@@ -990,11 +887,12 @@ footer div h2
         width: auto;
         height: auto;
         align-items: center;
+        font-size: 10%;
     }
 
     #activity_title
     {
-        font-size: 1.5em;
+        font-size: 1em;
         padding-left: 1em;
         margin-bottom: 1em;
     }
@@ -1003,8 +901,13 @@ footer div h2
     {
         position: relative;
         top: 0.4em;
-        font-size: 1.2em;
+        font-size: 1em;
         box-shadow: 0em 0.0em 0.3em rgb(207, 207, 207);
+    }
+
+    .activity_name
+    {
+        font-size: 30%;
     }
 
     #vieux_port
@@ -1188,12 +1091,12 @@ footer div h2
 
     .lodgings_name
     {
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     .lodgings_info
     {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     .star
