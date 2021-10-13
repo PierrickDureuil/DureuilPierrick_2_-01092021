@@ -67,11 +67,23 @@ a
     color: #0065fc;
 }
 
+#text_anchor_lodging:hover
+{
+    border-top:  solid 0.2em #0065fc;
+    padding-top: 1.8em;
+}
+
 #anchor_activity
 {
     font-style: normal;
     color: black;
     margin-right: 4em;
+}
+
+#text_anchor_activity:hover
+{
+    border-top:  solid 0.2em #0065fc;
+    padding-top: 1.8em;
 }
 
 #text_register
@@ -244,11 +256,10 @@ label
     align-items: center;
 }
 
-#lodgings
+#lodging
 {   
     display: flex;
     flex-direction: column;
-    
     background-color: #f2f2f2;
     border-radius: 1em;
     width: 64%;
@@ -595,7 +606,19 @@ footer div a
         margin-top: 1em;
         text-align: center;
         padding-bottom: 1em;
+        border-bottom: solid 0.2em #f2f2f2;
+    }
+
+    #anchor_lodging:hover
+    {
         border-bottom: solid 0.2em #0065fc;
+    }
+
+    #text_anchor_lodging:hover
+    {
+        border-bottom: none;
+        padding-bottom: none;
+        border-top: none;
     }
 
     #anchor_activity
@@ -606,6 +629,18 @@ footer div a
         margin-right: 0em;
         padding-bottom: 1em;
         border-bottom: solid 0.2em #f2f2f2;
+    }
+
+    #anchor_activity:hover
+    {
+        border-bottom: solid 0.2em #0065fc;
+    }
+
+    #text_anchor_activity:hover
+    {
+        border-bottom: none;
+        padding-bottom: none;
+        border-top: none;
     }
 
     #register
@@ -789,7 +824,7 @@ footer div a
         align-items: center;
     }
 
-    #lodgings
+    #lodging
     {
         width: auto;
         height: auto;
@@ -951,6 +986,16 @@ footer div a
         margin-right: 2em;
     }
 
+    #text_anchor_lodging:hover
+    {
+        padding-top: 2em;
+    }
+
+    #text_anchor_activity:hover
+    {
+        padding-top: 2em;
+    }
+
     form
     {
         justify-content: center;
@@ -1013,7 +1058,7 @@ footer div a
         text-indent: 25px;
     }
 
-    #lodgings
+    #lodging
     {   
         margin: 0em;
         padding: 1em 0em 1em 0em;
@@ -1065,16 +1110,20 @@ footer div a
     {
         width: auto;
         height: auto;
+        margin-left: 0%;
     }
 
     #popular_lodgings_pannel
     {
         padding-bottom: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .popular_cards
     {
         margin-top: 5%;
+        width: 60%;
     }
 
     .popular_picture
